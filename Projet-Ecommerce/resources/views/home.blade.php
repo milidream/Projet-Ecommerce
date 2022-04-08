@@ -1,6 +1,6 @@
 @extends('layoit.app')
 
 @section('container')
-<img src="{{asset('img/catzo.png')}}" alt="">
+<img style="300px" src="{{asset('img/catzo.png')}}" alt="">
 
 @endsection

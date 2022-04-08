@@ -23,10 +23,10 @@
         <ul style="margin-left:30px "  class="navbar-nav me-auto mb-2 mb-lg-0">
 
         <li class="nav-item">
-            <a style="color: white" class="nav-link" href="#"> connecter</a>
+            <a style="color: white" class="nav-link" href="{{route('login')}}"> connecter</a>
           </li>
           <li class="nav-item">
-            <a style="color: white" class="nav-link" href="#">S’inscrire</a>
+            <a style="color: white" class="nav-link" href="{{route('register')}}">S’inscrire</a>
           </li>
         </ul>
     </form>
